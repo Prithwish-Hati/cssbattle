@@ -1,0 +1,41 @@
+:root {
+  --green: #024817;
+  background-color: var(--green);
+  box-sizing: border-box;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  height: 400px;
+  width: 400px;
+  background: white;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#nested-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 80px;
+}
+
+.item {
+  height: 200px;
+  width: 100px;
+  background: var(--green);
+}
+
+#lower-div {
+  height: 100px;
+  width: 100%;
+  background: var(--green);
+}
